@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+  padding: 10px;
+  text-align: center;
+  background: #5e95e4  ;
+  color: white;
+  font: size 30px;
+}
+footer{
+    padding: 40px;
+  text-align: center;
+  background: #5e95e4 ;
+  color: white;
+  font: size 15px;
+  position: fixed;
+}
+h1{
+    size: 25px;
+    color: #920898;
+    font-weight: bold;
+}
+h2{
+    size: 17px;
+    color: #920898;
+    font-style: italic;
+
+}
+label{
+    font-style: italic;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+table{
+     background-color:#ab15c3   ;
+      border-collapse: collapse;
+      width: 2px;
+}
+li{
+    font-style: italic;
+    color: #0e72f0 ;
+}
+    </style>
+</head>
+<body> 
+    <header></header>
+    <div>
+        <body style="background-image:url( https://cdn.shopify.com/s/files/1/0336/0351/8604/products/20200518_165320_15133bcb-f997-454a-9001-00df043a7411_800x.jpg?v=1604238234);"></body>
+   <h1> 50 class</h1>
+   <h2>welcome to our website</h2>
+        <form>
+            <label for="email">your email:</label>
+            <input type="email" id="email"name="email"><br><br>
+            <label for="fname">first name:</label>
+      <input type="text" id="fname" name="fname" maxlength="30" minlength="2"> <br><br>
+      <label for="birthday">Date of birth:</label>
+      <input type="date" id="Date of birth" name="Date of birth"><br><br>
+      <label for="number">Grades:</label>
+      <input type="number" id="number" name="number" min="0" max="15" onkeydown="false"><br><br>
+      <input type="button" value="save" onclick="msg()">
+        <div>
+            <table>
+                <th>full name</th><th>date of birth</th><th>email</th>
+<tr><td>jacoob</td><td>21.3.89</td><td>jacoob32@gmail.com</td></tr>
+<tr><td>shlomi</td><td>12.4.89</td><td>shlomo22.gmail.com</td></tr>
+<tr><td>elishva</td><td>31.5.89</td><td>alishva65@gmail.com</td></tr>
+<tr><td>hadas</td><td>12.8>89</td><td>hadas22@gmail.com</td></tr>
+<tr><td>asaf</td><td>25.3.89</td><td>asaf8@gmail.com</td></tr>
+            </table> </div>
+            <ol><li id="name">jacoob
+                <ul><li>html</li><li>javascript</li><li>github</li></ul>
+            </li>
+        <li id="name">asaf
+            <ul><li>phayton</li><li>css</li><li>monday</li></ul>
+            </li>
+            <li id="name">shlomi
+                <ul><li>java</li><li>git</li><li>html-5</li></ul>
+            </li>
+            <li id="name"> elishva
+                <ul><li>css</li><li>server</li><li>it</li></ul>
+            </li>
+            <li id="name">hadas
+               <ul><li>qa</li><li>css</li><li>sayber</li></ul>
+            </li>
+    </ol>
+    </form>
+    </div>
+    <footer></footer>
+</body>
+</html>
